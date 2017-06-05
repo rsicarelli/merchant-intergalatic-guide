@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:weightSum="4"
+    tools:showIn="@layout/activity_main">
+
+    <br.com.rsicarelli.merchantintergalaticguide.widget.SymbolView
+        android:id="@+id/glob"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="?selectableItemBackground"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="@dimen/key_line"
+        android:textSize="18sp"
+        app:coinViewIcon="@drawable/ic_glob"
+        app:coinViewTitle="Glob" />
+
+    <br.com.rsicarelli.merchantintergalaticguide.widget.SymbolView
+        android:id="@+id/prok"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="?selectableItemBackground"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="@dimen/key_line"
+        android:textSize="18sp"
+        app:coinViewIcon="@drawable/ic_prok"
+        app:coinViewTitle="Prok" />
+
+    <br.com.rsicarelli.merchantintergalaticguide.widget.SymbolView
+        android:id="@+id/pish"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="?selectableItemBackground"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="@dimen/key_line"
+        android:textSize="18sp"
+        app:coinViewIcon="@drawable/ic_pish"
+        app:coinViewTitle="Pish" />
+
+    <br.com.rsicarelli.merchantintergalaticguide.widget.SymbolView
+        android:id="@+id/tegj"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="?selectableItemBackground"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="@dimen/key_line"
+        android:textSize="18sp"
+        app:coinViewIcon="@drawable/ic_tegj"
+        app:coinViewTitle="Tegj" />
+
+</LinearLayout>

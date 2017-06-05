@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:weightSum="4"
+    tools:showIn="@layout/activity_main">
+
+    <br.com.rsicarelli.merchantintergalaticguide.widget.SymbolView
+        android:id="@+id/gold"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="?selectableItemBackground"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="@dimen/key_line"
+        android:textSize="18sp"
+        app:coinViewIcon="@drawable/ic_gold"
+        app:coinViewTitle="Gold" />
+
+    <br.com.rsicarelli.merchantintergalaticguide.widget.SymbolView
+        android:id="@+id/silver"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="?selectableItemBackground"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="@dimen/key_line"
+        android:textSize="18sp"
+        app:coinViewIcon="@drawable/ic_silver"
+        app:coinViewTitle="Silver" />
+
+    <br.com.rsicarelli.merchantintergalaticguide.widget.SymbolView
+        android:id="@+id/iron"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="?selectableItemBackground"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="@dimen/key_line"
+        android:textSize="18sp"
+        app:coinViewIcon="@drawable/ic_iron"
+        app:coinViewTitle="Iron" />
+
+</LinearLayout>
